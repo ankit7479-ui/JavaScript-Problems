@@ -1,0 +1,14 @@
+let fruits = ["Apple","banana","graphs","Orange"];
+fruits.sort();
+console.log(fruits);
+fruits.reverse();
+fruits.push("Pineapple");
+console.log(fruits);
+fruits.unshift("Mango");
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+fruits.splice(2,1,"Kiwi");
+console.log(fruits);
